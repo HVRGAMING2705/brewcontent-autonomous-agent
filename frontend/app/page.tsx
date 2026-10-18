@@ -2,8 +2,10 @@
 
 import "./globals.css";
 import { useState, useRef, useEffect, useCallback } from "react";
+import { getDemoStatus, demoChat } from "./lib/demoEngine";
 
-const API = "http://127.0.0.1:8000";
+// Demo mode: the FastAPI backend is not deployed, so the UI runs fully
+// client-side against the bundled knowledge-base files (public/kb/).
 
 // ── Types ──────────────────────────────────────────────────────────────────────
 
@@ -266,15 +268,14 @@ export default function Home() {
   const bottomRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  // Fetch KB status on mount
+  // Fetch KB status on mount (local demo engine — no backend needed)
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch(`${API}/kb/status`);
-        const data = await res.json();
+        const data = await getDemoStatus();
         setKbStatus(data);
       } catch {
-        setKbStatus({ status: "error", chunks_found: 0, message: "Cannot reach backend." });
+        setKbStatus({ status: "error", chunks_found: 0, message: "Cannot load knowledge base." });
       } finally {
         setKbLoading(false);
       }
@@ -303,22 +304,8 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch(`${API}/chat`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text }),
-      });
-
-      if (!res.ok) {
-        let detail = `Server error ${res.status}`;
-        try {
-          const err = await res.json();
-          detail = err.detail || detail;
-        } catch {}
-        throw new Error(detail);
-      }
-
-      const data = await res.json();
+      // Local demo engine — answers from the bundled knowledge base.
+      const data = await demoChat(text);
 
       setMessages((prev) =>
         prev.map((m) =>
