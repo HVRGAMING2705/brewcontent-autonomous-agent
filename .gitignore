@@ -9,3 +9,5 @@ scrapes/
 dist/
 build/
 .DS_Store
+frontend/out/
+frontend/.next/

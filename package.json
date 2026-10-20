@@ -3,6 +3,7 @@
   "private": true,
   "workspaces": ["frontend"],
   "scripts": {
+    "build": "npm run build --workspace=frontend",
     "dev": "python -m pip install -e backend && python -m playwright install chromium && (cd backend && uvicorn app.main:app --reload --port 8000) & (cd frontend && npm install && npm run dev)",
     "dev:backend": "cd backend && uvicorn app.main:app --reload --port 8000",
     "dev:frontend": "cd frontend && npm install && npm run dev"

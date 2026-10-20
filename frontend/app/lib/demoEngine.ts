@@ -127,7 +127,7 @@ export async function demoChat(message: string): Promise<DemoAnswer> {
   );
 
   if (scored.length === 0) {
-    const topics = [...new Set(chunks.map((c) => c.title))].join(", ");
+    const topics = Array.from(new Set(chunks.map((c) => c.title))).join(", ");
     return {
       answer:
         `I couldn't find a direct match for that in the BrewContent knowledge base. ` +
