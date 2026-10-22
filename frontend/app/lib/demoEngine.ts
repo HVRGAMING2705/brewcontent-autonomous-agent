@@ -93,7 +93,7 @@ export async function getDemoStatus(): Promise<DemoStatus> {
   return {
     status: "ready",
     chunks_found: chunks.length,
-    message: `Demo mode: ${chunks.length} knowledge chunks loaded locally — no backend required.`,
+    message: `Demo mode: ${chunks.length} knowledge chunks loaded locally, no backend required.`,
   };
 }
 
@@ -123,7 +123,7 @@ export async function demoChat(message: string): Promise<DemoAnswer> {
   activity.push(
     scored.length > 0
       ? `Ranked ${scored.length} relevant chunks by keyword overlap`
-      : "No strong keyword match — listing available topics"
+      : "No strong keyword match: listing available topics"
   );
 
   if (scored.length === 0) {

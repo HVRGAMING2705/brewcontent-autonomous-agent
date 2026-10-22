@@ -114,7 +114,7 @@ function SourceList({ sources }: { sources: Source[] }) {
               textOverflow: "ellipsis",
               whiteSpace: "nowrap",
             }}
-            title={`${s.title} — score ${s.score}`}
+            title={`${s.title}: score ${s.score}`}
           >
             ↗ {s.title || s.url}
           </a>
@@ -255,7 +255,7 @@ export default function Home() {
       id: uid(),
       role: "assistant",
       text:
-        "Hi! I'm your BrewContent Knowledge Agent. Ask me anything about campaigns, scheduling, templates, audience, billing, or any other BrewContent feature. I'll search my knowledge base — or scrape BrewContent directly if I don't know the answer yet.",
+        "Hi! I'm your BrewContent Knowledge Agent. Ask me anything about campaigns, scheduling, templates, audience, billing, or any other BrewContent feature. I'll search my knowledge base, or scrape BrewContent directly if I don't know the answer yet.",
     },
   ]);
   const [input, setInput] = useState("");
