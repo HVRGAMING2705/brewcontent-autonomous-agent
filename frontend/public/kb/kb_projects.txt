@@ -1,15 +1,5 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-Projects
-+ New Project
+Share of Model is BrewContent's headline metric: how often AI recommends your brand, measured across ChatGPT, Perplexity, Gemini and AI Overviews. BrewContent positions Share of Model as the replacement for Share of Voice, because a brand's first audience is increasingly the AI agent answering the buyer. OmniBrew is the component named for Share of Model measurement, and the AI Search pillar ("Show up in AI answers") is built around it. (Source: brewcontent.ai homepage and the Autonomous Demand OS product page)
 
-Create your first project to organize your templates and content. Projects help you manage and categorize your work efficiently.
+BrewContent's Knowledge Hub includes Resources, the Share of Model Index, Research and Reports, Category Benchmarks, Field Guides covering AEO, GEO and CMX, the CMX Academy with a free certification, a Blog, and The Signal newsletter, published every Tuesday. BrewContent frames its approach as CMX: Customer Experience (CX) plus Machine Experience (MX), arguing that by 2026 a brand's first audience is the AI agent answering the buyer. Its stated ambition is "Brewing the Marketing OS for every brand to reach a billion." (Source: brewcontent.ai homepage and company page)
+
+About the company: Brewcontent Inc. describes itself in its Privacy Policy as an AI-powered content generation and brand intelligence platform built to help marketing teams, creators and enterprises produce high-quality, on-brand content at scale across social media, email, campaigns and digital channels, headquartered in the United States. Leadership listed on the BrewContent company page: Revathipathi Namballa, Chief Executive Officer (CEO), and Pavan Jakati, Founder and CTO (Chief Technology Officer). (Source: brewcontent.ai/company and Privacy Policy)

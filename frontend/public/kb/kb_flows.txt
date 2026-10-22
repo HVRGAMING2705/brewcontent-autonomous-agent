@@ -1,15 +1,9 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-AI Video Generation
-Create a Video Flow
+Getting started with BrewContent: the Docs include a 30-minute onboarding walkthrough covering four steps: sign up, connect channels, ingest brand truth, and ship your first campaign. The Docs have six sections: Getting Started, Product Guides, API Reference, Integrations, Security and Compliance, and Vertical Playbooks. (Source: brewcontent.ai/products/docs)
 
-Flows are a great way to group related Videos together, making it easier to manage and find your content. Click on "Create a Video Flow" to get started!
+Sign-up and login flow: the "Sign In" link in the brewcontent.ai header goes to the app login page at app.brewcontent.ai/login. Entry-point calls to action include "Try Brewcontent for Free!" on the homepage, "Start Now" for the Free plan and "Buy Now" for paid plans on the pricing page, and "Contact Sales" for Enterprise. The login page ("Welcome to Brewcontent — Log in to continue") offers an email address field, a password field with a show-password option, a "Forgot password?" link, a "Log in" button, a "Sign Up" link for new accounts, "Sign in with Google", and "Continue with Microsoft". Continuing means agreeing to the Terms of Service and Privacy Policy.
+
+Platform products in the BrewContent OS: Studio (text, image and video generation), Motion Suite (video, ads, avatars and motion), BrewBase (brand truth: voice, style and RAG), BrewGuard (brand safety and compliance), BrewGate (SSO, SCIM, IP allowlisting and DLP), BrewPlan (signals become briefs and a working calendar), and OmniTap (paid orchestration across 9+ networks). Security is listed as SOC 2 Type II, GDPR and CCPA, with vertical packs. (Source: brewcontent.ai homepage Product menu)
+
+Models BrewContent routes to: Text models include Claude, GPT-5, Gemini and top open-source models. Image models include FLUX Pro and Ultra, Ideogram 3, Adobe Firefly 3, Recraft V3, DALL-E, Midjourney and Stable Diffusion. Video models include Kling, Veo 3, Runway Gen-4, Sora 2, Seedance, Wan, HeyGen, Pika and Luma. Studio is model-routed across frontier models rather than locked to a single model, which is how BrewContent contrasts itself with text-only, single-model tools such as Jasper and Copy.ai. (Source: Demand OS and Studio pages, Studio FAQ)
+
+Developer platform facts from the Docs page: the API is REST and GraphQL, with authentication, rate limits, webhooks and SDKs for Node, Python, Go and Ruby. Rate limits shown are 1000 requests per minute on Founder and custom on Studio. There is a sandbox environment with test-mode data, and a Java SDK is planned for Q4. The documentation is public, but the SOC 2 report and penetration test reports are available only under NDA.

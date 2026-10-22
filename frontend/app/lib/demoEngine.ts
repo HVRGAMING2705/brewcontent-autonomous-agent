@@ -91,9 +91,9 @@ export async function getDemoStatus(): Promise<DemoStatus> {
     };
   }
   return {
-    status: "ready",
+    status: "ok",
     chunks_found: chunks.length,
-    message: `Demo mode: ${chunks.length} knowledge chunks loaded locally, no backend required.`,
+    message: `Knowledge base loaded locally: ${chunks.length} chunks compiled from BrewContent's public pages.`,
   };
 }
 
@@ -104,14 +104,23 @@ export async function demoChat(message: string): Promise<DemoAnswer> {
   activity.push(`Searching ${chunks.length} local knowledge chunks`);
 
   const keywords = tokenize(message);
+  // Whole-word counting (optional plural "s"): raw substring counting made
+  // unrelated words match ("paris" inside "comparison", "pro" inside
+  // "improve"), which let off-topic questions return random chunks instead
+  // of the honest no-match fallback.
+  const countWord = (hay: string, k: string) => {
+    const m = hay.match(new RegExp(`\\b${k}s?\\b`, "g"));
+    return m ? m.length : 0;
+  };
   const scored = chunks
     .map((c) => {
       const hay = c.text.toLowerCase();
+      const titleHay = c.title.toLowerCase();
       let score = 0;
       for (const k of keywords) {
-        const hits = hay.split(k).length - 1;
+        const hits = countWord(hay, k);
         // Title matches weigh more.
-        const titleHits = c.title.toLowerCase().split(k).length - 1;
+        const titleHits = countWord(titleHay, k);
         score += hits + titleHits * 3;
       }
       return { c, score };
@@ -123,17 +132,21 @@ export async function demoChat(message: string): Promise<DemoAnswer> {
   activity.push(
     scored.length > 0
       ? `Ranked ${scored.length} relevant chunks by keyword overlap`
-      : "No strong keyword match: listing available topics"
+      : "No matching knowledge found: returning contact options"
   );
 
   if (scored.length === 0) {
     const topics = Array.from(new Set(chunks.map((c) => c.title))).join(", ");
     return {
       answer:
-        `I couldn't find a direct match for that in the BrewContent knowledge base. ` +
-        `Try asking about one of these topics: ${topics}.`,
+        `I don't have that in my knowledge base, so I can't answer it accurately. ` +
+        `I only answer from a built-in knowledge base compiled from BrewContent's public pages, ` +
+        `and I won't guess at the rest.\n\n` +
+        `For help beyond this, contact BrewContent directly: email info@brewcontent.ai, ` +
+        `or use the contact page at https://brewcontent.ai/contact.\n\n` +
+        `Topics I can help with: ${topics}.`,
       sources: [],
-      activity: [...activity, "Composed guidance answer"],
+      activity: [...activity, "Composed fallback answer with contact options"],
     };
   }
 

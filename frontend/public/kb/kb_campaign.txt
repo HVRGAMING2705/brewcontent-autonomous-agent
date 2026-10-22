@@ -1,61 +1,7 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-Campaign
+BrewContent Studio is the generation platform: "Text, image, and video grounded in your brand truth." Text outputs include landing pages, blog posts, emails, ads, product descriptions, sales sequences, LinkedIn posts, social captions, SEO briefs and long-form articles. Image outputs include ad creative, hero images, product photography, lifestyle shots, illustrations, social visuals and thumbnails. Video outputs include UGC-style ads, product demos, avatar explainers, story sequences and cinematic brand films. (Source: brewcontent.ai/products/studio)
 
-Create and manage your marketing campaigns
+Motion Suite is BrewContent's video and motion platform: "Video, ads, avatars, and motion at brand quality." Motion Suite has four systems. Still Room: cinematic direction and standing sets. Cask ID: consistent characters, mascots and avatars across content. Proofing Room: performance and dialogue. Bottling Line: cutdowns, aspect ratios and platform variants. Together, the four Motion Suite systems cover the full video workflow from direction to platform-ready cutdowns. (Source: brewcontent.ai homepage Product menu and Studio page)
 
-Save
-Generated Variants
-📄
+Studio creative capabilities include per-surface voice adapters: eight community-native voices, because the TikTok voice differs from the LinkedIn voice, the Reddit voice and the email voice. Studio also offers moment-based creative from a trigger library, cohort-relevant and retrieval-conditioned generation, and conversation-aware content. Metrics claimed on the Studio page: 10x more assets shipped per week, 89% first-draft acceptance rate, 4.7x faster brief-to-ship, and 73% lower cost per asset versus agency production.
 
-Generated Variant will appear here
-
-Generate Content
-Run Simulation
-Publish Campaign
-View Insights
-Generate Content
-Platform Type:
-LinkedIn
-▼
-Use Company Blueprint
-Campaign Objective
-Brand Awareness
-▼
-Industry Context
-SaaS
-▼
-Target Audience
-Brand Marketer
-▼
-Content Brief
-No. of Variants
-3 Variants (Fast)
-▼
-Brand Voice
-Select a Brand Kit
-▼
-
-No Brandkit available
-
-Create Brandkit
-Call to Action
-Book A Demo Today
-▼
-Words to Avoid
-Write the words you don't want in your campaign (e.g., guarantees, superlatives, sensitive claims)
-Add
-competitor
-×
-rival
-×
-Generate Content
+Video generation facts from the pricing FAQ: each video can be 1 to 15 seconds long, depending on the model and quality tier, story complexity and available credits. Video generation is available on all tiers: Free includes 1 video per day, Basic and Pro are limited by creative credits, and Motion is optimised for high-volume video. The Motion tier is designed for storytelling workflows such as brand films, product demos, social reels and multi-scene sequences, and its continuous story building extends scenes across clips while maintaining character and brand consistency.

@@ -1,12 +1,7 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-Templates
+Mic Drop is BrewContent's audio-to-content tool. It converts conversations and audio into blog posts and articles, social content, and email drafts and campaign copy. You can upload recordings or paste transcripts, then edit and refine the output and publish directly to connected channels. The pricing comparison table shows Mic Drop as included on the Basic, Pro and Motion plans. (Source: brewcontent.ai/pricing and pricing FAQ)
+
+Post Analysis gives performance insights and optimisation tips for social content: it identifies high-performing formats, helps improve engagement, and keeps content aligned with brand voice. Content Analysis covers SEO-friendly content and optimising content for LLMs. The pricing comparison table shows Post Analysis and Content Analysis as included on the Basic, Pro and Motion plans.
+
+Campaign Canvas is BrewContent's campaign planning workspace, shown in the pricing comparison table as included on the Pro and Motion plans. Tubemind is included on Pro ("Tubemind and advanced ad tools") and on Motion as part of all marketing features. Premium marketing features include white papers, case studies and blog articles: the Free plan is limited to 1 whitepaper or 1 case study or 1 blog article, Basic includes case studies and blog articles, and Pro includes all premium marketing features.
+
+Tools included on every plan, including Free: the Job Description generator (clear, concise job role summaries) and the Billing Calculator for credit usage tracking. (Source: brewcontent.ai/pricing comparison table)

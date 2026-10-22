@@ -1,61 +1,9 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
+BrewContent's Distribution pillar is "Publish everywhere": finished content ships to social media, ads, email and CMS surfaces. OmniTap handles paid orchestration across 9+ ad networks. The Free plan includes 3 social posts per day; Basic, Pro and Motion include unlimited post creation. (Source: brewcontent.ai homepage and pricing page)
 
-Calendar
+BrewContent offers 60+ native integrations. CMS integrations: Webflow, Framer, WordPress, Contentful, Sanity, Shopify, Wix, Squarespace and Ghost. Social integrations: LinkedIn, Instagram, TikTok, YouTube, X, Threads, Facebook, Pinterest, Reddit and Snapchat. (Source: brewcontent.ai/products/integrations)
 
-All Posts
+More integrations. Ad networks: Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads, Reddit Ads, Pinterest Ads, YouTube Ads, Amazon DSP and ChatGPT Ads. CRM and sales: HubSpot, Salesforce, Pipedrive, Close, Copper, Zoho and ActiveCampaign. Email and lifecycle: Klaviyo, Iterable, Braze, Customer.io, Mailchimp, ConvertKit and HubSpot Marketing. Analytics: GA4, Mixpanel, Amplitude, Heap, Segment (event forwarding), Fullstory and Pendo.
 
-Connect
+More integrations. Data warehouse and pipelines: Snowflake, BigQuery, Redshift, Databricks, Fivetran, Airbyte and dbt. Creative and design: Figma, Adobe Creative Cloud, Frame.io, Canva, Photoshop and Premiere. Collaboration: Slack, Microsoft Teams, Notion, Asana, Linear and Google Workspace. Beyond the native list: Zapier connects 5,000+ apps, Make connects 1,500+ apps, webhooks fire on every material state change, there is a REST and GraphQL API with full endpoint coverage, and MCP support for AI-agent integrations such as Claude and ChatGPT.
 
-Live
-May 2026
-Today
-Month
-Week
-SUN
-MON
-TUE
-WED
-THU
-FRI
-SAT
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
+Integration setup times, from the integrations page FAQ: most native integrations take under 5 minutes through an OAuth flow; complex ones such as Salesforce or warehouse connections take 15 to 30 minutes with a setup wizard.

@@ -1,37 +1,5 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-AUTOMATE YOUR SOCIAL MEDIA VIRALITY WITH AI
-Not sure where to begin? Here are some templates
+BrewContent is "The Autonomous Demand OS" for the AI attention era. Its tagline is: "Be the brand AI recommends. Humans choose." It turns market signals into content, content into recommendation, and recommendation into revenue. The platform grounds every generative AI model in a brand's own truth, routes each task to the best model for it, governs output inline, ships to every surface including AI answer engines, and closes the learning loop from signal to revenue autonomously. (Source: brewcontent.ai homepage and the Autonomous Demand OS product page)
 
-JOB SUMMARY
+How BrewContent works: it watches signals from culture, competitors and the brand's own customer systems. Example signals shown on the homepage include a song trending on TikTok, a beauty editor mentioning your category, a competitor launching a new SKU, and a CFO framing AI as a cost concern. A signal becomes a campaign in one tap, producing on-brand text, images and video: captions, articles and ad copy; Reels, TikToks and hero video; Pinterest pins, product photos and ad creative. Every output is reviewed inline: edit, tune, or ship, one tap each. Claims shown on the homepage: 3.8x faster campaign launches, 62% reduction in content spend, 12x increase in content output, and voice similarity of 94% on average.
 
-Generate clear and concise job role summaries
-
-CELEBRATIONS
-
-Celebrate achievements.
-
-INSTAGRAM POST
-
-Create an Instagram-ready photo and caption
-
-BLOG ARTICLE
-
-Capture attention like never before.
-
-LINKEDIN POST
-
-Create images, including hashtags for your Linkedin posts
-
-INTERNAL COMMUNICATIONS EMAIL
-
-Communicate with ease.
+BrewContent is built around five pillars: Intelligence ("See what's changing"), Studio (content generation), AI Search ("Show up in AI answers"), Distribution ("Publish everywhere"), and Performance ("Measure what compounds"). Its headline metric is Share of Model: how often AI recommends your brand, measured across ChatGPT, Perplexity, Gemini and AI Overviews, positioned as the replacement for Share of Voice. Also named: Collective Intelligence ("Three Signals. One Intelligence Layer") and Brewloop, the closed-loop learning system where every accepted or edited output sharpens the next generation. The product page states 1,247 brands on the OS, 10 vertical packs at launch, 30+ AI models routed to, and that BrewContent replaces on average 8 stack tools.

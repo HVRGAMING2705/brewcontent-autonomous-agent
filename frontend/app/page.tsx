@@ -255,7 +255,7 @@ export default function Home() {
       id: uid(),
       role: "assistant",
       text:
-        "Hi! I'm your BrewContent Knowledge Agent. Ask me anything about campaigns, scheduling, templates, audience, billing, or any other BrewContent feature. I'll search my knowledge base, or scrape BrewContent directly if I don't know the answer yet.",
+        "Hi! I'm your BrewContent Knowledge Agent. I answer from a built-in knowledge base compiled from BrewContent's public pages — ask me about what BrewContent does, its features (Studio, Motion Suite, BrewBase), pricing and credits, integrations, or how to get started. If something isn't in the knowledge base, I'll say so and point you to the BrewContent team.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -543,10 +543,10 @@ export default function Home() {
             Try asking…
           </div>
           {[
-            "How do I create an Instagram campaign?",
-            "How does scheduling work?",
-            "What is the brand kit?",
-            "How do I manage billing?",
+            "How much does BrewContent cost?",
+            "What is Motion Suite?",
+            "How do credits work?",
+            "Which integrations does BrewContent offer?",
           ].map((q, i) => (
             <button
               key={i}
@@ -612,7 +612,7 @@ export default function Home() {
               BrewContent Knowledge Agent
             </div>
             <div style={{ fontSize: 12, color: "var(--text-muted)" }}>
-              Powered by Ollama · Supabase pgvector · Notion · Playwright
+              Answers from a built-in knowledge base compiled from BrewContent's public pages
             </div>
           </div>
         </header>
@@ -705,7 +705,7 @@ export default function Home() {
               marginTop: 8,
             }}
           >
-            Press Enter to send · Shift+Enter for new line · Agent will scrape BrewContent if KB is incomplete
+            Press Enter to send · Shift+Enter for new line · Answers come from the built-in knowledge base — for anything else, email info@brewcontent.ai
             {" · "}
             <a href="/legal.html" style={{ color: "var(--text-muted)", textDecoration: "underline" }}>
               Privacy · Terms

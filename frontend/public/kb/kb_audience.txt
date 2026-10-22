@@ -1,18 +1,5 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-Audience Configuration
-+
-New Audience
-👥
-No audiences yet
+BrewContent is built for marketing teams, creators and enterprises that produce high-quality, on-brand content at scale across social media, email, campaigns and digital channels. The audiences named in the site's Solutions menu are: solo founders and creators; fractional CMOs and agencies, who get multi-client workspaces, white-label options and agency-tier billing; scaling teams at Series A to Series C stage; and enterprise marketing teams. (Source: brewcontent.ai homepage, Solutions menu)
 
-Create your first audience to get started with content generation
+Industries BrewContent lists include: DTC beauty and wellness, DTC fashion and apparel, DTC health and supplements, B2B SaaS, B2B enterprise services, healthcare, financial services, legal and professional services, real estate and PropTech, and hospitality and travel.
+
+The Target Audience feature in the pricing plans: the Free plan includes 2 target audiences, the Basic plan includes up to 5 target audiences, and the Pro and Motion plans include unlimited target audiences. (Source: brewcontent.ai/pricing comparison table)

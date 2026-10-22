@@ -1,25 +1,9 @@
-V
-VI
-Home
-Projects
-Templates
-Audience
-Brandkit
-AI Video
-Campaign
-Scheduler
-Billing
-Brand Kits
-+
-New Brand Kit
-No brand kits yet
+BrewBase is BrewContent's brand truth layer: "Brand truth: voice, style, and RAG." BrewBase ingests the brand's past landing pages, ads, product docs and video transcripts into a retrieval layer that holds the voice fingerprint (vocabulary, cadence, banned phrases and tone), product knowledge, customer vocabulary, visual identity, and legal and compliance context. The Brand Kit and Brand Voice features sit on top of this: the Free plan includes 1 Brand Kit and 1 Brand Voice. (Source: brewcontent.ai/products/studio and pricing page)
 
-Create your first brand kit to maintain consistent branding across all content
+Brand truth setup: connect your CMS and ad accounts and add your best-performing assets. BrewBase ingests them overnight, and most brands have a working voice model within 24 hours. (Source: Studio page FAQ)
 
-Company Blueprints
+BrewContent does not fine-tune models on your brand data. Grounding is done through retrieval (RAG on brand truth) plus adapter layers, never fine-tuning, so new frontier models are available the day they ship. (Source: Studio page FAQ)
 
-Automatically extract your company's core messaging, visual identity, and brand voice from your website.
+Drafts review flow: every generated asset lands in Drafts for human review, where you can approve it, edit it, or send it back. Accepted and edited versions feed Brewloop, the closed-loop learning system that sharpens future generations. (Source: Studio page FAQ)
 
-Scrape & Analyse
-No Blueprints Yet
-Enter your website URL above to instantly generate your first company blueprint from live web signals.
+BrewGuard is BrewContent's brand safety and compliance layer, built in rather than bolted on. BrewGuard checks intellectual property, trademark, brand safety and vertical compliance (including FINRA, HIPAA, FDA and GDPR) inline, before content reaches the review queue, and model provenance is disclosed per asset. (Source: brewcontent.ai homepage Product menu and Studio page FAQ)

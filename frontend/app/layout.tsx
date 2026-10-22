@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'BrewContent: Autonomous AI Knowledge Agent',
-  description: 'BrewContent is an autonomous AI knowledge agent by Vikranth Reddy. Chat with the BrewContent knowledge base: brand kits, campaigns, audience, billing, scheduling and content flows, running fully client-side in demo mode.',
+  description: 'BrewContent is an autonomous AI knowledge agent by Vikranth Reddy. Chat with the BrewContent knowledge base — what BrewContent does, Studio and Motion Suite features, pricing and credits, integrations and getting started — compiled from BrewContent\'s public pages and running fully client-side.',
   keywords: 'BrewContent, AI agent, knowledge base, autonomous agent, content automation, Vikranth Reddy',
   authors: [{ name: 'Vikranth Reddy' }],
   robots: 'index, follow',
@@ -8,7 +8,7 @@ export const metadata = {
     type: 'website',
     url: 'https://brewcontent-autonomous-agent.vercel.app/',
     title: 'BrewContent: Autonomous AI Knowledge Agent',
-    description: 'Chat with the BrewContent knowledge base: brand kits, campaigns, audience, billing, scheduling and content flows.',
+    description: 'Chat with the BrewContent knowledge base: features, pricing and credits, integrations, billing and more.',
     siteName: 'BrewContent',
     images: ['https://brewcontent-autonomous-agent.vercel.app/og.png'],
   },
