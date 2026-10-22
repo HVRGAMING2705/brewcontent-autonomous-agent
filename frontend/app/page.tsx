@@ -706,6 +706,10 @@ export default function Home() {
             }}
           >
             Press Enter to send · Shift+Enter for new line · Agent will scrape BrewContent if KB is incomplete
+            {" · "}
+            <a href="/legal.html" style={{ color: "var(--text-muted)", textDecoration: "underline" }}>
+              Privacy · Terms
+            </a>
           </div>
         </div>
       </main>

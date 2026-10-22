@@ -10,11 +10,13 @@ export const metadata = {
     title: 'BrewContent — Autonomous AI Knowledge Agent',
     description: 'Chat with the BrewContent knowledge base: brand kits, campaigns, audience, billing, scheduling and content flows.',
     siteName: 'BrewContent',
+    images: ['https://brewcontent-autonomous-agent.vercel.app/og.png'],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'BrewContent — Autonomous AI Knowledge Agent',
     description: 'Chat with the BrewContent knowledge base — brand kits, campaigns, audience, billing and more.',
+    images: ['https://brewcontent-autonomous-agent.vercel.app/og.png'],
   },
 }
 
@@ -25,7 +27,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <script defer src="/_vercel/insights/script.js"></script>
+      </body>
     </html>
   )
 }
